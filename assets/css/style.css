@@ -258,6 +258,8 @@ h3 {
   font-size: 32px;
 }
 
+.trainers p,
+.schedul p,
 .classes p{
   width: 28%;
   color: #666666;
@@ -289,7 +291,7 @@ h3 {
   text-indent: 1px;
   position: absolute;
   top:0;
-  border: 3.5px solid #666666;
+  border: 3.5px solid #e6e6e6;
   border-radius: 50%;
   left:-0.4vw;
 }
@@ -302,7 +304,94 @@ h3 {
   margin: 10px 8px;
 }
 
+.schedul{ background: #000000; }
+.schedul .wrapper{ width: 58%; }
+.trainers p,
+.schedul p{ 
+  width: 50%; 
+  margin: 20px 0;
+}
 
+.week-list{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  padding: 23px 0 30px;
+}
+
+.week-list a{
+  padding: 9.5px 11.5px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.active-week-day{ background-color: #48d494; }
+
+.table-row ul,
+.table-row{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 11.5px;
+  text-transform: capitalize;
+}
+
+.table-row ul{
+  flex-direction: row;
+}
+
+.table-row li{
+  padding: 18px 7px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.weekly-table{padding-bottom: 134px;}
+.table-row li:last-of-type{ padding: 18px 0; }
+.table-row li:nth-child(1){ width: 24.5% ; }
+.table-row li:nth-child(2){ width: 33.1% ; }
+.table-row li:nth-child(3){ width: 24.9% ; }
+.table-row li:nth-child(4){ width: 17% ; }
+.table-row a{
+  color: #48d494;
+  margin-left: 32%;
+}
+
+.trainers{background-color: #000000;}
+.trainers .wrapper{width: 58%;}
+
+.trainer-list{ 
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.trainer-list li{ width: 235px; }
+.trainer-list figure{
+  margin-left: 7px;
+  background-color: #48d494;
+}
+
+.trainer-list img{ transform: translate(-7px, -7px); }
+.trainer-list li:nth-child(2){ transform: translateY(30px); }
+
+.trainer-list h4{ 
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding-top: 27px;
+ }
+
+ .trainer-list p:nth-of-type(1){ margin-top: 5px; }
+ .trainer-list p:nth-of-type(2){
+   margin-top: 20px;
+   width: 100%;
+ }
+
+ .trainer-list{padding-bottom: 150px;}
 
 
 
