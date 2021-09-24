@@ -111,7 +111,7 @@ header .wrapper{
   display: flex;
   justify-content: space-between; 
   padding: 18px 0;
-  font-size: 12.5px;
+  font-size: 12px;
   position: absolute;
   top:0;
   left: 50%;
@@ -132,7 +132,7 @@ nav{ width: 50%; }
   padding: 5px 0;
 }
 
-.nav-btn{ padding: 0 7.4%; }
+.nav-btn{ padding: 0 7.45%; }
 .nav-btn:first-of-type>a{ border-bottom: 2px solid #ffffff; }
 
 nav+a{
@@ -156,7 +156,7 @@ nav+a{
   width: 100%;
   background: url("https://via.placeholder.com/1349x681") no-repeat;
   background-size: 100% ;
-  padding: 250px 0;
+  padding: 248px 0;
  }
 
 .banner span{
@@ -170,8 +170,77 @@ nav+a{
   font-size: 80px;
 }
 
+.fitness{ background-color: #000000; }
+.fitness .wrapper{ width: 58.56%; }
 
+.fitness-list{
+  display: flex;
+  color: #ffffff;
+  padding-top: 53px;
+  letter-spacing: 1px;
+  padding-bottom: 72px;
+}
 
+.fitness-item{ width: 25%; }
+.fitness-item:first-of-type img{ margin: 10px 15px 20px 5px; }
+.fitness-item img { 
+  width: 35px;
+  margin: 10px 20px 20px 5px;
+}
+
+.fitness-item p{
+  color: #666666;
+  font-size: 10.5px;
+  padding-top:7px;
+}
+
+.fitness-item figure { float: left; }
+.fitness-item span{ font-size: 28px; }
+
+h3 { 
+  color: #48d494; 
+  font-size: 35px;
+  width: 30%;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.fitness-txt h3{
+  width: 70%;
+  padding: 20px 5px;
+}
+.fitness-txt{
+  width: 50%;
+  display: inline-block;
+}
+
+.fitness-txt p{
+  width: 80%;
+  color: #666666;
+  font-size: 11.5px;
+  line-height: 1.8;
+  margin: 4px ;
+  letter-spacing: 0.5px;
+}
+
+.fitness-txt+figure{
+  background-color: #48d494;
+  float: right;
+}
+
+.fitness-txt+figure img{ transform: translate(-7px, -7px); }
+
+.fitness-txt a{
+  text-transform: uppercase;
+  font-size: 8px;
+  color: #000000;
+  background-color: #48d494;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 14px 5.4%;
+  margin: 28px 5px;
+  margin-bottom: 100px;
+}
 
 
 
