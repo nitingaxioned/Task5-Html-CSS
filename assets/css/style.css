@@ -106,11 +106,44 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header .wrapper{  
+  width:88.3%;
+  display: flex;
+  justify-content: space-between; 
+  padding: 18px 0;
+  font-size: 12.5px;
+  position: absolute;
+  top:0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
+nav{ width: 50%; }
 
+.nav-btn-list{
+  display: inline-flex;
+  justify-content: center;
+  text-transform: capitalize;
+  margin-left: 30%;
+}
 
+.nav-btn a{ 
+  color: #ffffff;
+  padding: 5px 0;
+}
 
+.nav-btn{ padding: 0 7.4%; }
+.nav-btn:first-of-type>a{ border-bottom: 2px solid #ffffff; }
 
+nav+a{
+  text-transform: uppercase;
+  font-size: 10px;
+  border-radius: 3px;
+  color: #48d494;
+  border: 1px solid #48d494;
+  padding: 6px 0.98% 2px;
+  margin-right: 2.0%;
+}
 
 /*=================================
   Header styling ends here
@@ -119,8 +152,23 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.banner .wrapper{ 
+  width: 100%;
+  background: url("https://via.placeholder.com/1349x681") no-repeat;
+  background-size: 100% ;
+  padding: 250px 0;
+ }
 
-
+.banner span{
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  text-transform: capitalize;
+  width: 40%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 80px;
+}
 
 
 
