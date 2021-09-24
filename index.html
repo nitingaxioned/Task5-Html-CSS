@@ -270,30 +270,33 @@
         </div>
       </section>
       <section class="contact">
+        <div class="wrapper">
         <h3>contact</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, reprehenderit quia exercitationem repudiandae explicabo quibusdam. Excepturi, sint alias? Excepturi cum commodi deserunt, numquam at eligendi, aut vitae nemo alias, architecto aspernatur unde voluptatibus ipsam recusandae accusamus hic laboriosam quasi laborum magnam? Reiciendis ipsam optio placeat fuga impedit repellendus veritatis eligendi.</p>
-        <div class="form-contener">
-          <form>
-            <div class="form-inputs fn">
-              <input type="text" placeholder="First Name" name="first">
-            </div>
-            <div class="form-inputs ln">
-              <input type="text" placeholder="Last Name" name="Last">
-            </div>
-            <div class="form-inputs">
-              <input type="text" placeholder="subject" name="sub">
-            </div>
-            <div class="form-inputs">
-              <input type="email" placeholder="Email" name="email">
-            </div>
-            <div class="form-inputs">
-              <textarea name="msg" placeholder="Messege"></textarea>
-            </div>
-            <div class="form-sub-btn">
-              <button type="submit" value="send Messege"></button>
-            </div>
-          </form>
-        </div>
+        <form action="#FIXME" class="Contact-form" method="post">
+          <div class="form-group">
+            <input type="text" placeholder="First Name">
+            <span class="helperMessage">error</span>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Last Name">
+            <span class="helperMessage">error</span>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject">
+            <span class="helperMessage">error</span>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Email">
+            <span class="helperMessage">error</span>
+          </div>
+          <div class="form-group">
+            <textarea name="msg" placeholder="Messege"></textarea>
+            <span class="helperMessage">error</span>
+          </div>
+          <div class="form-control">
+            <input class="send" type="submit" value="Send Messege">
+          </div>
+        </form>
       </section>
     </main>
     <!--main section end-->
