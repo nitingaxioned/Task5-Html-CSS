@@ -188,6 +188,7 @@ nav+a{
   margin: 10px 20px 20px 5px;
 }
 
+.classes p,
 .fitness-item p{
   color: #666666;
   font-size: 10.5px;
@@ -241,6 +242,67 @@ h3 {
   margin: 28px 5px;
   margin-bottom: 100px;
 }
+
+.classes{ background-color: #000000; }
+
+.classes .wrapper{
+  width: 100%;
+  padding: 100px 0;
+}
+
+.classes h3,
+.classes p{ margin-left: 21% ; }
+
+.classes h3{
+  padding: 15px 0;
+  font-size: 32px;
+}
+
+.classes p{
+  width: 28%;
+  color: #666666;
+  font-size: 11.5px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.slider{ 
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 42px;
+}
+.slide{width: 25%;}
+
+.slide:nth-child(1),
+.slide:nth-child(2),
+.slide:nth-child(3),
+.slide:nth-child(4){ display: none; }
+
+.slide-controls{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.control::after{
+  content: "";
+  text-indent: 1px;
+  position: absolute;
+  top:0;
+  border: 3.5px solid #666666;
+  border-radius: 50%;
+  left:-0.4vw;
+}
+
+.active-control::after{border-color: #48d494;}
+
+.control{
+  text-indent: -9999px;
+  position: relative;;
+  margin: 10px 8px;
+}
+
+
 
 
 
