@@ -258,6 +258,7 @@ h3 {
   font-size: 32px;
 }
 
+.contact p,
 .service p,
 .trainers p,
 .schedul p,
@@ -307,6 +308,7 @@ h3 {
 
 .schedul{ background: #000000; }
 .schedul .wrapper{ width: 58%; }
+.contact p,
 .service p,
 .trainers p,
 .schedul p{ 
@@ -396,7 +398,10 @@ h3 {
 .trainer-list{padding-bottom: 150px;}
 
 .service{ background-color: #000000;}
-.service .wrapper{ width: 58%; }
+.service .wrapper{
+  width: 58%;
+  padding-bottom: 32px;
+}
 .service-slider{
   display: flex;
   justify-content: space-between;
@@ -418,6 +423,7 @@ h3 {
   margin: 0 0 10px 0;
   color: #ffffff;
 }
+
 .service-slide span{
   color: #ffffff;
   text-transform: capitalize;
@@ -425,6 +431,81 @@ h3 {
   letter-spacing: 1px;
   display: inline-block;
 }
+
+.contact{ background-color: #121212; }
+.contact p{ 
+  width: 100%;
+  margin: 10px 0 25px;
+}
+
+.contact .wrapper{
+  padding-top: 62px;
+  width: 33%;
+}
+
+.contact h3{ width: 100%; }
+.helperMessage{ display: none; }
+input:focus,
+textarea:focus{ 
+  outline: none;
+  border: 1px solid #48d494;
+}
+
+.form-group{
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 9px;
+}
+
+.form-group:nth-of-type(1) input{
+  width: 93%;
+  position: absolute;
+  left: 0;
+}
+.form-group:nth-of-type(2) input{
+  width: 93%;
+  position: absolute;
+  right: 0;
+  transform: translateX(7%);
+}
+
+.form-group:nth-of-type(1),
+.form-group:nth-of-type(2){
+  width: 49.5%;
+  padding-bottom: 31px;
+  position: relative;
+}
+
+textarea{height: 174px;}
+
+textarea,
+input{ 
+  font-size: 11.5px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 6.5px;
+  width: 100%;
+}
+
+.form-control input{
+  width: 47.3%;
+  background-color: #48d494;
+  border-radius: 3px;
+  border-color: #48d494;
+  color: #121212;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 11.5px;
+}
+
+.form-control{ padding-bottom: 72px; }
+
+
+
+
+
+
+
 /*=================================
   main styling ends here
 =================================*/
