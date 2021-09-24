@@ -258,6 +258,7 @@ h3 {
   font-size: 32px;
 }
 
+.service p,
 .trainers p,
 .schedul p,
 .classes p{
@@ -306,6 +307,7 @@ h3 {
 
 .schedul{ background: #000000; }
 .schedul .wrapper{ width: 58%; }
+.service p,
 .trainers p,
 .schedul p{ 
   width: 50%; 
@@ -385,16 +387,44 @@ h3 {
   padding-top: 27px;
  }
 
- .trainer-list p:nth-of-type(1){ margin-top: 5px; }
- .trainer-list p:nth-of-type(2){
+.trainer-list p:nth-of-type(1){ margin-top: 5px; }
+.trainer-list p:nth-of-type(2){
    margin-top: 20px;
    width: 100%;
  }
 
- .trainer-list{padding-bottom: 150px;}
+.trainer-list{padding-bottom: 150px;}
 
+.service{ background-color: #000000;}
+.service .wrapper{ width: 58%; }
+.service-slider{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23px;
+}
 
-
+.service-slide{ 
+  width: 31.6%;
+  box-sizing: border-box;
+  background-color: #48d494;
+  padding: 48px 5.17%;
+}
+.service-slide:nth-of-type(6),
+.service-slide:nth-of-type(4),
+.service-slide:nth-of-type(5){ display: none; }
+.service-slide img{ width: 35%;}
+.service-slide p{ 
+  width: 100%; 
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+.service-slide span{
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 20px 0;
+  letter-spacing: 1px;
+  display: inline-block;
+}
 /*=================================
   main styling ends here
 =================================*/
