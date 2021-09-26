@@ -160,7 +160,7 @@ nav+a:hover{
 =================================*/
 .banner .wrapper{ 
   width: 100%;
-  background: url("https://via.placeholder.com/1349x681") no-repeat;
+  background: url("https://via.placeholder.com/1349x689") no-repeat;
   background-size: 100% ;
   padding: 248px 0;
  }
@@ -619,9 +619,224 @@ footer span{ color: #48d494; }
 =================================*/ 
 
 /*media query starts*/
+/*media query for 1340px starts here*/
+@media only screen and (max-width: 1340px) {
+
+  .form-group:nth-of-type(1) input{
+    width: 100%;
+    position: static;
+  }
+  
+  .form-group:nth-of-type(2) input{
+    width: 100%;
+    position: static;
+    transform: translateX(0);
+  }
+  
+  .form-group:nth-of-type(1),
+  .form-group:nth-of-type(2){
+    width: 100%;
+    position: static;
+    padding-bottom: 9px;
+  }
+
+  .banner .wrapper{ 
+    height: 50.40vw;
+    padding: 0;
+   }
+
+  .banner span{ 
+    padding: 15%;
+    vertical-align: middle;
+    font-size: 70px;
+  }
+
+  .fitness-txt+figure{ width: 48%; }
+  .footer-top .wrapper{ width: 80%; }
+}  
+
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+
+  .nav-btn a:hover{ border-bottom: 0; }
+  .nav-btn:first-of-type>a:hover{ border-bottom: 2px solid #ffffff; }
+  .fitness-txt a:hover{ background-color: #48d494; }
+  .control:hover::after{ border-color: #e6e6e6; }
+  .active-control:hover:after{border-color: #48d494;}
+  .table-row a:hover{ color: #48d494; }
+
+  nav+a:hover{ 
+    background-color: transparent;
+    color: #48d494;
+  }
+
+  .week-list a:hover{
+    color: #48d494;
+    background-color: transparent;
+  }
+
+  .week-list .active-week-day:hover { 
+    background-color: #48d494;
+    color: #ffffff;
+  }
+
+  .subs-inputs input:nth-of-type(2):hover,
+  .form-control input:hover{
+    color: #000000;
+    border-color:#48d494 ;
+    background: #48d494;
+  }
+
+  .footer-top a{ color: #ffffff; }
+
+  .fitness .wrapper,
+  .schedul .wrapper,
+  .trainers .wrapper,
+  .service .wrapper{ width: 80%; }
+  .contact .wrapper{ width: 50%; }
+  .classes h3,
+  .classes p{ margin-left: 10% ; }
+  .classes p{ width: 40%; }
+  .banner span{ font-size: 50px; }
+}  
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+  .footer-top .wrapper{ width: 90%; }
+  .footer-block:nth-child(2){ width: 15% ; }
+  .footer-block:nth-child(3){ width: 40% ; }
 
+}  
+
+/*media query for 720px starts here*/
+@media only screen and (max-width: 720px) {
+
+  .fitness .wrapper,
+  .schedul .wrapper,
+  .trainers .wrapper,
+  .service .wrapper{ width: 95%; }
+  .contact .wrapper{ width: 75%; }
+  .classes h3,
+  .classes p{ margin-left: 2.5% ; }
+  .classes p{ width: 40%; }
+  .banner span{ font-size: 50px; }
+  .footer-top .wrapper{ width: 97%; }
+  .footer-block-list{ justify-content: space-between; }
+  .fitness-item span{ font-size: 20px; }
+  .fitness h3{ padding-top: 0; }
+  nav+a{ padding: 6px 0.98%; }
+
+  .nav-btn-list{
+    position: absolute;
+    flex-direction: column;
+    width: 100vw;
+    height: 50.40vw;
+    top:0;
+    left: -36.7%;
+    background: #121212;
+    display: none;
+  }
+
+  .nav-btn-list::before{
+    content: "\f061";
+    font-family: FontAwesome;
+    color: #48d494;
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    right: 10px;
+  }
+
+  header .wrapper::after{
+    content: "\f038";
+    font-family: FontAwesome;
+    color: #48d494;
+    font-size: 25px;
+  }
+
+  .fitness-list{ 
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+
+  .fitness-item{ 
+    width: 35%;
+    margin-left: 15%;
+  }
+
+  .fitness-txt{ width: 100%; }
+
+  .fitness-txt+figure { 
+    float: none;
+    margin: auto;
+  }
+
+  .banner span{ font-size: 30px; }
+  .fitness a { margin-bottom: 50px; }
+  .classes .wrapper { padding: 20px 0; }
+  .service p,
+  .trainers p,
+  .schedul p,
+  .classes p{ width: 80%; }
+  .service h3{ width: 40%; }
+}  
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+
+  .slide{width: 50%;}
+  .slide:nth-child(5),
+  .slide:nth-child(6){ display: none; }
+  .weekly-table{ padding-bottom: 50px; }
+  .trainer-list{ flex-direction: column; }
+  .trainer-list li:nth-child(2){ transform: translateY(0); }
+
+  .trainer-list li{ 
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .trainer-list li figure{
+    width: 50%;
+    margin: auto;
+  }
+
+  .service h3{ width: 80%; }
+  .trainer-list{ padding-bottom: 10px; }
+  .service-slide:nth-of-type(3){ display: none; }
+  .service-slide p{ width: 100%; }
+
+  .service-slide{ 
+    width: 48.5%;
+    padding: 20px 5.17%;
+  }
+
+  .week-list{
+    flex-wrap: wrap;
+  }
+
+  .footer-block-list{
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .footer-block:nth-child(1),
+  .footer-block:nth-child(2),
+  .footer-block:nth-child(3){
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  footer {
+    padding: 10px 0;
+    letter-spacing: 0;
+    font-size: 8px;
+  }
+
+  .fitness-item{ 
+    width: 45%;
+    margin: auto
+  }
 
 }  
